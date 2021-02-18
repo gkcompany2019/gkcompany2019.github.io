@@ -12,7 +12,7 @@ header {
 	}
 nav{
 	font-weight: bold;
-	background-color: #D18B00;	
+	background-color: #487B96;	
 	text-align: center;	
 	padding: 1em;
 	}
@@ -27,6 +27,7 @@ nav a:visited{
 	}
 nav a:hover{
 	color: #032C8C;
+	text-decoration: underline;
 	}
 h2{
 	color: #032C8C;
@@ -54,11 +55,12 @@ footer{
 	padding-top: 0em;
 	}
 #wrapper{
-	background-image: linear-gradient(to bottom, #FFFFFF, #FFBB34);
-	background-repeat: no-repeat;
-	color: #00A700;
+	/*background-image: linear-gradient(to bottom, #FFFFFF, #699CB3);
+	background-repeat: no-repeat;*/
+	background-color: #699CB3;
+	color: #F4EBEC;
 	font-family: Arial, Helvetica, sans-serif;
-	margin-left: auto;	margin-right: auto;	width: 80%;	min-width: 960px;	max-width: 2048px;
+	margin-left: auto;	margin-right: auto;	min-width: 960px;	max-width: 2048px;
 	}
 main{
 	padding: 1px 20px 20px;
@@ -75,6 +77,14 @@ main{
 	margin-left: auto;
 	margin-right: auto;
 	}
+#cleanup{
+	height: 150px;
+	width: 325px;
+}
+#deliveryhero{
+	height: 151px;
+	text-align: center;
+}
 #maphero{
 	margin: auto;
 	display: grid;
